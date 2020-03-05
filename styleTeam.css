@@ -1,0 +1,194 @@
+body{
+	padding:none;
+	margin:0;
+	background-color: white;
+	margin-top:10px;
+}
+
+.border {
+	border-left: 100px solid #B6CED9;
+	border-right: 100px solid #B6CED9;
+	margin:none;
+}
+.toppart {
+	border-bottom: 1px solid #22B3F6;
+}
+
+
+h1 {
+  margin: 0;	
+  color: #22B3F6;
+  text-align: left;
+  font-family: georgian;
+  font-size:70;
+  padding-top:none;
+  padding-right:300px;
+  padding-bottom:0px;
+}
+
+
+h2 {
+  margin:0;
+  color: #707070;
+  text-align: left;
+  font-family: georgian;
+  font-size:40;
+  padding-left:60px;
+  padding-right:none;
+  padding-bottom:10px;
+  
+}
+h4 {
+  margin:0;
+  color: black;
+  text-align: left;
+  font-family: georgian;
+  font-size:30;
+  padding-left:60px;
+  padding-right:none;
+  padding-bottom:60px;
+  
+}
+h3 {
+  margin:0;
+  color:#22B3F6 ;
+  text-align: center;
+  font-family: georgian;
+  font-size:35px;
+  
+}
+h4 {
+  margin:0;
+  color: black;
+  text-align: center;
+  font-family: georgian;
+  font-size:30px;
+  
+}
+p {
+  margin:0;
+  /*background-color: lightblue;*/
+  font-family: georgian;
+  font-size: 25px;
+  color: black;
+  padding:none;
+  text-align: center;
+
+}
+.bullets{
+  margin:0;
+  /*background-color: lightblue;*/
+  font-family: georgian;
+  font-size: 18px;
+  color: black;
+  padding:none;
+  text-align: center;
+}
+.Skills{
+  padding-left: 65px;
+  /*background-color: lightblue;*/
+  font-family: georgian;
+  font-size: 20px;
+  color: black;
+  padding:none;
+  text-align: left;	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 45px;
+  overflow: hidden;
+  background-color: white;
+  position: sticky;
+  background-color:white;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #707070;
+  text-align: center;
+  padding: 40px 20px;
+  text-decoration: none;
+  font-size:30;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Container around content */
+.container {
+  padding: 30px 20px;
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+  border-bottom:1px solid #22B3F6;
+  
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  /*left: 50%;*/
+  left:0;
+}
+
+.imgRight{
+		float:right;
+		margin-top:0px;
+		margin-bottom:30px;
+		margin-right:20px;
+		margin-left:20px;
+		
+}
+
+.imgLeft{
+		float:left;
+		margin-top:0px;
+		padding-bottom:30px;
+		margin-right:20px;
+		margin-left:20px;
+}
+/* The actual content */
+.content {
+  padding: 30px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  border-color: black;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
